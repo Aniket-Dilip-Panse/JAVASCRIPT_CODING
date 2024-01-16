@@ -10,7 +10,9 @@
 
 // number
 let number = 10;
+let number2 = 10.6;
 console.log(number);
+console.log(typeof number2);
 
 // string
 let name = "aniket";
