@@ -1,56 +1,31 @@
-function add() {
-    let num1 = parseInt(document.getElementById("num1").value);
-    let num2 = parseInt(document.getElementById("num2").value);
-    let sum = num1 + num2;
-    document.getElementById("answer").innerHTML = sum;
+function show() {
+    let username = document.getElementById("mytext").value;
+    document.getElementById("myh1").innerHTML = `Namaskar ${username}`;
 }
 
-function sub() {
-    let num1 = parseInt(document.getElementById("num1").value);
-    let num2 = parseInt(document.getElementById("num2").value);
-    let sub = num1 - num2;
-    document.getElementById("answer").innerHTML = sub;
+function show2(){
+    let username = document.getElementById("mytext").value;
+    document.getElementById("myp").textContent = `Hello ${username}`;
 }
 
-function mul() {
-    let num1 = parseInt(document.getElementById("num1").value);
-    let num2 = parseInt(document.getElementById("num2").value);
-    let mul = num1 * num2;
-    document.getElementById("answer").innerHTML = mul;
+function areaCircle() {
+    let radius = document.getElementById("radius_value").value;
+    const PI = 3.142
+    document.getElementById("secondh1").textContent = `Area of circle: ${Math.round(PI * radius * radius)}`
 }
 
-function div() {
-    let num1 = parseInt(document.getElementById("num1").value);
-    let num2 = parseInt(document.getElementById("num2").value);
-    let div = num1 / num2;
-    document.getElementById("answer").innerHTML = div;
+let value = 0; 
+function decrementValue() {
+    let decrement = value--;
+    document.getElementById("thirdh1").textContent = decrement;
 }
 
-function output() {
-    let num1 = parseInt(document.getElementById("number1").value);
-    let num2 = parseInt(document.getElementById("number2").value);
-    let operation = document.getElementById("select_tag").value
-    switch (operation) {
-        case "+":
-            var num3 = num1 + num2;
-            document.getElementById("result").innerHTML = num3;
-            break;
-        case "-":
-            var num3 = num1 - num2;
-            document.getElementById("result").innerHTML = num3;
-            break;
-        case "*":
-            var num3 = num1 * num2;
-            document.getElementById("result").innerHTML = num3;
-            break;
-        case "/":
-            if (num2 == 0) {
-                document.getElementById("result").innerHTML = 'NA';
-            }
-            var num3 = num1 / num2;
-            document.getElementById("result").innerHTML = num3;
-            break;
-        default:
-            console.log("not valid");
-    }
+function incrementValue() {
+    let increment = value++;
+    document.getElementById("thirdh1").textContent = increment;
+}
+
+function resetValue() {
+    let value = 0
+    document.getElementById("thirdh1").textContent = value;
 }
