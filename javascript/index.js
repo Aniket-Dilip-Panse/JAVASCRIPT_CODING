@@ -29,3 +29,13 @@ function resetValue() {
     let value = 0
     document.getElementById("thirdh1").textContent = value;
 }
+
+//Random Number Generator
+function randomNum() {
+    const mybutton = document.getElementById("roll");
+    const mylabel = document.getElementById("random_label");
+    const min = 1;
+    const max = 6;
+    randomNumber = Math.floor(Math.random() * (max - min + 1) + min);
+    mylabel.textContent = randomNumber;
+}

@@ -30,6 +30,27 @@
            color: white;
            font-size: medium;
         }
+        .align_center{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #roll{
+            width: 100px;
+            padding:10px;
+            border: none;
+            background-color: teal;
+            color: black;
+            font-size: medium;
+            font-family: Arial, Helvetica, sans-serif;
+            text-transform: capitalize;
+            cursor: pointer;
+        }
+
+        #random_label{
+            font-size: larger;
+            margin-right: 20px;
+        }
     </style>
     <script src="index.js"></script>
 </head>
@@ -65,8 +86,9 @@
             <button onclick="incrementValue()" id="btn3">Increment</button>
         <!-- </form> -->
     </div><br><br>
-    <div>
-        <h1>new tag for just completing green code</h1>
+    <div class="time_1_10_47 align_center">
+            <label for="roll" id="random_label"></label>
+            <button  id="roll" onclick="randomNum()">Roll</button>
     </div>
 </body>
 </html>
