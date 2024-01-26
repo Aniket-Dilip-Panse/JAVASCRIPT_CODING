@@ -5,3 +5,7 @@ function idselector(){
 function classSelector(){
   let value = document.getElementByClassName("myclass").value;
 }
+
+function tagSelector(){
+  let value = document.getElementByTagName("mytag");
+}
