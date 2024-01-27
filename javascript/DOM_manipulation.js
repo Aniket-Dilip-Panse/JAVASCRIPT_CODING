@@ -9,3 +9,7 @@ function classSelector(){
 function tagSelector(){
   let value = document.getElementByTagName("mytag");
 }
+
+function querySelector(){
+  let value = document.queryselector("anytag");
+}
