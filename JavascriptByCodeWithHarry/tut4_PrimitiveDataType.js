@@ -34,3 +34,19 @@ let g = Symbol("😀😁😂");
 let h = undefined; // h is declared but not initialized
 console.log(b, c, d, e, f, g, h);
 console.log(typeof d);
+
+
+// ============== NON-PRIMITIVE DATATYPE=========
+const info = {
+    'name': 'aniket',
+    'age': 22,
+    'address': 'kalyan',
+    'nativePlace' : 'satara'
+}
+console.log(info);
+console.log(typeof info)
+console.log(info.address, info['age']);
+
+const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+console.log(arr);
+console.log(typeof arr)
