@@ -25,3 +25,12 @@ console.log(typeof a);
 
 // CONTAINER HOLDING THE DATA IS OF WHAT TYPE IS CALLED PRIMITIVE DATATYPE.
 
+let b = null; //nothing is stored
+let c = 345;
+let d = true; // can also be false
+let e = BigInt("567");
+let f = "aniket";
+let g = Symbol("😀😁😂");
+let h = undefined; // h is declared but not initialized
+console.log(b, c, d, e, f, g, h);
+console.log(typeof d);
