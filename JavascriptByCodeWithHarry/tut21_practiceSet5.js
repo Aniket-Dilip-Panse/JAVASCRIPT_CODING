@@ -13,6 +13,6 @@ const readline2 = require("readline").createInterface({
 
 const arr = [];
 
-const size = readline.question("enter the size of array: ", size => {
-    
+const size = readline.question("enter the size of array: ", size => {  
+    readline.close();
 })
