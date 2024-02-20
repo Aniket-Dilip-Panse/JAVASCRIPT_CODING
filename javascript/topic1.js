@@ -56,9 +56,24 @@ var arr = () => {
 }
 
 console.log(obj);
-var obj;
-obj = {
+var obj = {
     name: 'aniket',
     age: 21
 }
 console.log(obj);
+
+
+// ============================= new concept ===============================
+// var keyword HOISTING
+
+console.log(greeting); // undefined
+var greeting = 'namaskar';
+
+console.log(greeting); // namaskar
+
+
+// function hoisting we will get the output but in variable hoisting answer will be undefined.
+console.log(addition(1, 2)); // 3
+function addition(a, b) {
+    return a + b;
+}
