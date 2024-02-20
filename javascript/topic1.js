@@ -44,7 +44,6 @@ console.log(isPositive3)
 
 // let var and const as well as function can also be hoisted
 console.log(name4);
-console.log(arr());
 var name4 = 'shet';
 console.log(greet());
 
@@ -55,3 +54,11 @@ function greet() {
 var arr = () => {
     console.log("namaskar");
 }
+
+console.log(obj);
+var obj;
+obj = {
+    name: 'aniket',
+    age: 21
+}
+console.log(obj);
