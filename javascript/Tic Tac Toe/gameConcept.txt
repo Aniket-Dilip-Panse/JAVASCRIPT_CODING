@@ -1,0 +1,31 @@
+In this game you will be playing as 'X' and your opponent will be 'O'. You will be playing against the computer.
+
+In this game there are total 9 boxes.each player get alternative change to win the game.
+
+There are total 8 possible winning pattern is as follows:-
+3 horizontal 3 vertical and 2 diagonal
+winning pattern:-
+[0,1,2]
+[3,4,5]
+[6,7,8]
+[0,3,6]
+[1,4,7]
+[2,5,8]
+[0,4,8]
+[2,4,6]
+
+if any one pattern is satisfy then the player will win the game.
+
+for design take 9 btn
+
+javascript logic 
+
+step 1:- first access all btn using querySelectorAll
+
+step 2:- who is going to play first? make him true example let turnO = true;
+
+step 3:- create a two dimensional array of winning pattern
+
+step 4:- create eventlistener on  all button
+
+
