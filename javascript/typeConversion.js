@@ -86,3 +86,13 @@ console.log(`BigInt to boolean ${bol5} is ${Boolean(bol5)}`);
 let bol6 = Symbol('a');
 // console.log(`Symbol to boolean ${bol6} is ${Boolean(bol6)}`); //error
 
+let score = 100;
+console.log(`typeof score`, typeof score);
+console.log('score.toString()', score.toString());
+console.log(`typeof score`, typeof score);
+
+
+let balance = new Number(200);
+console.log(`typeof balance`, typeof balance);
+console.log(`balance.toString()`, balance.toString());
+console.log(`typeof balance`, typeof balance);
