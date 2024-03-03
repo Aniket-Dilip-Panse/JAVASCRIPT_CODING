@@ -68,3 +68,20 @@ let string6 = Symbol('a');
 // console.log(`Symbol to string ${string6} is ${String(string6)}`); //error
 
 
+let bool1 = -10;
+console.log(`number to boolean ${bool1} is ${Boolean(bool1)}`);
+
+let bol2 = 'aniket';
+console.log(`string to boolean ${bol2} is ${Boolean(bol2)}`);
+
+let bol3 = null;
+console.log(`null to boolean ${bol3} is ${Boolean(bol3)}`);
+
+let bol4 = undefined;
+console.log(`undefined to boolean ${bol4} is ${Boolean(bol4)}`);
+
+let bol5 = BigInt('10');
+console.log(`BigInt to boolean ${bol5} is ${Boolean(bol5)}`);
+
+let bol6 = Symbol('a');
+// console.log(`Symbol to boolean ${bol6} is ${Boolean(bol6)}`); //error
