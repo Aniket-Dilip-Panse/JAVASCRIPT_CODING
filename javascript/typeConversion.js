@@ -46,3 +46,25 @@ let number7 = Symbol('');
 
 let number8 = BigInt('2895');
 console.log(Number(number8)); //2895
+
+
+
+let string1 = 10;
+console.log(`number to string ${string1} is ${String(string1)}`);
+
+let string2 = true;
+console.log(`boolean to string ${string2} is ${String(string2)}`);
+
+let string3 = null;
+console.log(`null to string ${string3} is ${String(string3)}`);
+
+let string4 = undefined;
+console.log(`undefined to string ${string4} is ${String(string4)}`);
+
+let string5 = BigInt('10');
+console.log(`BigInt to string ${string5} is ${String(string5)}`);
+
+let string6 = Symbol('a');
+// console.log(`Symbol to string ${string6} is ${String(string6)}`); //error
+
+
