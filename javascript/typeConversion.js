@@ -41,5 +41,8 @@ console.log(Number(number5)); // 0 output
 let number6 = undefined;
 console.log(Number(number6)); //Nan 
 
-let name = 'aniket';
-console.log(name, typeof (name));
+let number7 = Symbol('');
+// console.log(Number(number7));//error
+
+let number8 = BigInt('2895');
+console.log(Number(number8)); //2895
