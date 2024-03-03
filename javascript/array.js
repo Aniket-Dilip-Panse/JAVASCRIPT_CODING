@@ -22,5 +22,5 @@ for (i; i < fruits.length; i++){
 }
 
 let arr = [1, 23, 4, 5, 6, 7, 8, 9, 0, 43, 2, 1, 2536, 3633];
-console.log(arr.splice(2, 2));
+console.log(arr.splice(2, 2)); //2 = position 2 = deleted value after position
 console.log(arr)
