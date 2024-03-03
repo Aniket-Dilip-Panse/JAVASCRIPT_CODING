@@ -14,13 +14,13 @@
 //     console.log(String(age, typeof age))
 // });
 
-// n = number 
-// n = null
-// s = string
-// s = symbol
-// b = boolean
-// b = bigint
-// u = undefined
+// n = number is a function
+// n = null is a keyword
+// s = string is a function
+// s = symbol is a function
+// b = boolean is a function
+// b = bigint  is a function
+// u = undefined is a keyword
 
 let number = '473'; 
 console.log(typeof number);
@@ -85,3 +85,4 @@ console.log(`BigInt to boolean ${bol5} is ${Boolean(bol5)}`);
 
 let bol6 = Symbol('a');
 // console.log(`Symbol to boolean ${bol6} is ${Boolean(bol6)}`); //error
+
