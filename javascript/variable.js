@@ -10,3 +10,6 @@ x = 100;
 console.log(x);
 // let x; we cannot declare same variable using let keyword
 // if variable x is declare using ''let keyword'' we cannot declare same variable using ''var keyword''
+
+console.log(isPositive);
+var isPositive = true;
