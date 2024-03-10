@@ -21,13 +21,17 @@ xl	1280px	@media (min-width: 1280px) { ... }
 2xl	1536px	@media (min-width: 1536px) { ... } -->
 </head>
 <body>
-    <div>
-        <div><i class="fa-sharp fa-solid fa-arrow-left"></i></div>
-        <div>
+    <div class="w-full h-screen bg-slate-200 flex flex-col ">
+        <!-- back button -->
+        <div class="px-2 py-4 bg-teal-500"><i class="fa-sharp fa-solid fa-arrow-left"></i>
+        </div>
+        <!-- hero section -->
+        <div class="bg-yellow-500 px-2 py-10">
             <h1>Let's Sign you in</h1>
             <p>Welcom back you have been missed</p>
         </div>
-        <div>
+        <!-- form section -->
+        <div class="px-2 py-10">
             <form action="">
                 <div>
                     <h3>Username or Email</h3>
@@ -39,9 +43,9 @@ xl	1280px	@media (min-width: 1280px) { ... }
                 </div>
             </form>
         </div>
-        <div>
+        <!-- login button -->
+        <div class="py-8">
             <input type="button" value="Login" class="w-full bg-black px-4 py-2 align_center rounded-lg text-white">
-
         </div>
     </div>
 </body>
