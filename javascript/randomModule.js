@@ -10,5 +10,5 @@ console.log(random3)
 const randomvalue = Math.floor(Math.random() * 100)
 console.log(random)
 
-var random = random.randInt
+var random5 = random.randInt
 console.log(random)
