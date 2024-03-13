@@ -1,3 +1,3 @@
 # JAVASCRIPT_CODING
-New Author- Aniket & Siddheshwar
+New Author- Aniket
 learning javascript from scratch to advanced
