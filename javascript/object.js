@@ -123,4 +123,13 @@ const { courseinstructor } = course
 const { courseinstructor: instructor } = course
 
 
+const profile = {
+    name: 'aniket',
+    isFollow: true,
+    post: 195,
+    followers: 1000000,
+    following: 100,
+    technology : ['web developer','backend developer','frontend developer','AWS developer']
+}
+console.log(profile);
 // API  value is in the form of json

@@ -13,5 +13,3 @@ obj.username = 'andya';
 obj.welcomemessage();
 
 console.log(obj);
-
-
