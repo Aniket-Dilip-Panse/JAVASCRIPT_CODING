@@ -17,3 +17,4 @@ function onmousemove() {
 function onmouseover() {
     document.getElementById("btn").style.backgroundColor = "purple"
 }
+alert("welcome to DOM Manipulation");
