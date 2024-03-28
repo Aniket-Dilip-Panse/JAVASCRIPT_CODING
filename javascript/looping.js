@@ -16,3 +16,8 @@ for (let j=0; j<=10; j+=2){
     number_array.push(j);
 }
 console.log(number_array);
+
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+for (let i of arr) {
+    console.log(arr[i]);
+}
