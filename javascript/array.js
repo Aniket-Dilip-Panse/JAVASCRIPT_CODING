@@ -75,4 +75,4 @@ console.log(Array.of(score1, score2, score3));
 // all important things in array
 const myArr = [];
 
-const newArr = [...myArr, ...newArr];
+const newArr2 = [...myArr, ...newArr];
