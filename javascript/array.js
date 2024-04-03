@@ -76,3 +76,4 @@ console.log(Array.of(score1, score2, score3));
 const myArr = [];
 
 const newArr2 = [...myArr, ...newArr];
+const newArr3 = ['aniket','dilip','panse']
