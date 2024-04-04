@@ -10,3 +10,11 @@ if(age>18){
 }else{
     console.log('not eligible for voting')
 }
+
+switch(age){
+    case 18:
+        console.log('eligible for voting')
+        break
+    default:
+        console.log('not eligible for voting')
+}
