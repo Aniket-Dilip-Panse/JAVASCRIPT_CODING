@@ -18,3 +18,7 @@ switch(age){
     default:
         console.log('not eligible for voting')
 }
+
+
+// ternary operator
+console.log(age>18 ? 'eligible for voting' : 'not eligible for voting')
