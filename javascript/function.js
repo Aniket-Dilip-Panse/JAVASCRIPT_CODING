@@ -60,3 +60,28 @@ function arrayVlaue(arr) {
     return arr;
 }
 console.log(arrayVlaue(newarry));
+
+
+function discount(){
+    var item_amounts = 1391;
+    var tax = 10;
+    var packing_cost = 50;
+    var total = tax + packing_cost ;
+
+    var coupon_discount = 20;
+    console.log(coupon_discount);
+    if(coupon_discount){
+        if(item_amounts < 500){
+            var cal_discount = item_amounts - (item_amounts * coupon_discount / 100) + total + 120;
+            document.getElementById("total").innerHTML = "₹" + " " + cal_discount.toFixed();
+            console.log(cal_discount);
+        }
+        else{
+            var cal_discount = item_amounts - (item_amounts * coupon_discount / 100) + total;
+            document.getElementById("total").innerHTML = "₹" + " " + cal_discount.toFixed();
+            console.log(cal_discount);
+        }
+    }
+    console.log(cal_discount);
+}
+discount();
